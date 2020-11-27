@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+main{
+	width: 70%;
+	padding: 50px;
+	margin: auto;
+	/*background-color: #fff;*/
+	background-image: url(../img/fon.jpeg);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+body{
+	background-color: #efefef;
+}
+.foto{
+	max-width: 520px;
+	width: calc(25vw - 10px);
+	height: calc((35vw - 40px) / 16 * 9) ;
+	margin: 20px;
+	/*background-color: blue;*/
+	box-shadow: 4px 4px 5px 1px rgba(0,0,0,0.2);
+	background-position: center;
+	background-size: cover;
+	opacity: 0.65;
+	transition: opacity 2s, transform 0.5s, box-shadow 0.3s;
+}
+h1{
+	width: 100%;
+	text-align: center;
+	font-size: 48px;
+	color: blue;
+}
+.foto1{
+	background-image: url(../img/06.jpeg);
+}
+.foto2{
+	background-image: url(../img/07.jpeg);
+}
+.foto3{
+	background-image: url(../img/08.jpeg);
+}
+.foto4{
+	background-image: url(../img/09.jpeg);
+}
+.foto5{
+	background-image: url(../img/10.jpeg);
+}
+.foto6{
+	background-image: url(../img/11.jpeg);
+}
+.foto7{
+	background-image: url(../img/12.jpeg);
+}
+.foto8{
+	background-image: url(../img/13.jpeg);
+}
+.foto9{
+	background-image: url(../img/14.jpeg);
+}
+.foto10{
+	background-image: url(../img/15.jpeg);
+}
+.foto11{
+	background-image: url(../img/16.jpeg);
+}
+.foto12{
+	background-image: url(../img/17.jpeg);
+}
+.foto:hover{
+	opacity: 1;
+	transform: scale(1.5);
+	z-index: 10;
+	box-shadow: 0 0 20px 30px rgba(0,0,0,0.4);
+	transform: scale(1.5) rotate(3deg);
+}
